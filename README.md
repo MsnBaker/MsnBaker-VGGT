@@ -4,7 +4,12 @@
 ## This is an unfinished repository!!!
 # TODO : add a requirements.txt
 
-![example_pic1](./assets/pics/pic1.png)
+
+<div style="display: flex; gap: 10px;">
+  <img src="assets/pics/pic1.png" width="500">
+  <img src="assets/pics/pic3.png" >
+</div>
+
 
 ## 1. 摘要
 我将FastVGGT的模型的预处理稍作修改，使其支持不同尺寸图片的输入。
@@ -34,7 +39,7 @@ pip install -r requirements.txt
 ### (4) 运行代码
 首先进入到项目文件目录，运行
 ```bash
-python demo_without_mask.py --data_path /root/autodl-tmp/my_img/pyramid/images --ckpt_path /PATH_TO_YOUR/model.pt
+python demo_without_mask.py --data_path /PATH_TO_YOUR/image.jpg --ckpt_path /PATH_TO_YOUR/model.pt
 ```
 上面代码的PATH_TO_YOUR/model.pt替换成你保存的权重文件路径
 
