@@ -3,7 +3,8 @@
 ## 0. 这是一个未完成的仓库！！！
 ## This is an unfinished repository!!!
 # TODO : add a requirements.txt
-# TODO : add some pictures
+
+![example_pic1](./assets/pics/pic1.png)
 
 ## 1. 摘要
 我将FastVGGT的模型的预处理稍作修改，使其支持不同尺寸图片的输入。
