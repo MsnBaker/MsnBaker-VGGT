@@ -1,12 +1,7 @@
 # MsnBaker-VGGT
 
-## 0. 这是一个未完成的仓库！！！
-## This is an unfinished repository!!!
-# TODO : add a requirements.txt
-
-
 <div style="display: flex; gap: 10px;">
-  <img src="assets/pics/pic1.png" width="500">
+  <img src="assets/pics/pic1.png" >
   <img src="assets/pics/pic3.png" >
 </div>
 
@@ -39,9 +34,10 @@ pip install -r requirements.txt
 ### (4) 运行代码
 首先进入到项目文件目录，运行
 ```bash
-python demo_without_mask.py --data_path /PATH_TO_YOUR/image.jpg --ckpt_path /PATH_TO_YOUR/model.pt
+python demo_without_mask.py --data_path /PATH_TO_YOUR/image --ckpt_path /PATH_TO_YOUR/model.pt
 ```
-上面代码的PATH_TO_YOUR/model.pt替换成你保存的权重文件路径
+上面代码的 PATH_TO_YOUR/model.pt 替换成你保存的权重文件路径. 
+/PATH_TO_YOUR/image 替换成你输入图片的路径
 
 ## 3. 致谢
 感谢他们的代码：  
