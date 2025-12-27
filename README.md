@@ -13,15 +13,14 @@
 ### (1) 下载/克隆仓库
 首先将仓库克隆到本地（替换为你的 GitHub 仓库地址）：
 ```bash
-git clone git@MsnBaker.github.com:MsnBaker/MsnBaker-VGGT.git
-# or 
-# git clone https://github.com/MsnBaker/MsnBaker-VGGT.git
+git clone https://github.com/MsnBaker/MsnBaker-VGGT.git
 ```
 
 ### (2) 新建conda环境 并 安装依赖包
 ```bash
 conda create -n vggt python=3.10
 conda activate vggt
+cd MsnBaker-VGGT
 pip install -r requirements.txt
 ``` 
 ### (3) 下载模型权重
@@ -34,10 +33,10 @@ pip install -r requirements.txt
 ### (4) 运行代码
 首先进入到项目文件目录，运行
 ```bash
-python demo_without_mask.py --data_path /PATH_TO_YOUR/image --ckpt_path /PATH_TO_YOUR/model.pt
+python demo_without_mask.py --data_path /PATH_TO_YOUR/images --ckpt_path /PATH_TO_YOUR/model.pt
 ```
 上面代码的 PATH_TO_YOUR/model.pt 替换成你保存的权重文件路径. 
-/PATH_TO_YOUR/image 替换成你输入图片的路径
+/PATH_TO_YOUR/images 替换成你输入图片的路径
 
 ## 3. 致谢
 感谢他们的代码：  
