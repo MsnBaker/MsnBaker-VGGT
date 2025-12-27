@@ -5,13 +5,15 @@
   <img src="assets/pics/pic3.png" >
 </div>
 
+## English version
+[🌐 English Version](README_ENGLISH.md) 
 
 ## 1. 摘要
-我将FastVGGT的模型的预处理稍作修改，使其支持不同尺寸图片的输入。
+我将VGGT的模型结合FastVGGT，预处理稍作修改，使其支持不同尺寸图片的输入。
 
 ## 2. 快速开始
 ### (1) 下载/克隆仓库
-首先将仓库克隆到本地（替换为你的 GitHub 仓库地址）：
+首先将仓库克隆到本地：
 ```bash
 git clone https://github.com/MsnBaker/MsnBaker-VGGT.git
 ```
