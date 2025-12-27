@@ -33,7 +33,8 @@ and name it model.pt
 Remember the path of the model weights file. And then remember to change the path of the model weights file in the code.
 
 ### (4) Run the code
-First, enter the project file directory, and run
+First, create a folder named "images", and put your input images in it.
+Then enter the project file directory, and run
 ```bash
 python demo_without_mask.py --data_path /PATH_TO_YOUR/images --ckpt_path /PATH_TO_YOUR/model.pt
 ```

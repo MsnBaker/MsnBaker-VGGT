@@ -33,7 +33,8 @@ pip install -r requirements.txt
 命名为model.pt （应该本来就是这个名字）
 
 ### (4) 运行代码
-首先进入到项目文件目录，运行
+首先将你的所有图片放在一个名为images文件夹下
+进入到项目文件目录，运行
 ```bash
 python demo_without_mask.py --data_path /PATH_TO_YOUR/images --ckpt_path /PATH_TO_YOUR/model.pt
 ```
