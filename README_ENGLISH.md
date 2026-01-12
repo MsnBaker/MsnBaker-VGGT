@@ -2,6 +2,13 @@
 
 <div style="display: flex; gap: 10px;">
   <img src="assets/pics/pic1.png" >
+</div>
+
+<div style="display: flex; gap: 10px;">
+  <img src="assets/pics/skymask_demo.png" >
+</div>
+
+<div style="display: flex; gap: 10px;">
   <img src="assets/pics/pic3.png" >
 </div>
 
