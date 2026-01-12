@@ -9,7 +9,7 @@
 [🌐 English Version](README_ENGLISH.md) 
 
 ## 1. 摘要
-我将VGGT的模型结合FastVGGT，预处理稍作修改，使其支持不同尺寸图片的输入。
+我将VGGT的模型结合FastVGGT，预处理稍作修改，使其支持不同尺寸图片的输入。并且加入了天空掩膜功能。
 
 ## 2. 快速开始
 ### (1) 下载/克隆仓库
@@ -35,9 +35,24 @@ pip install -r requirements.txt
 ### (4) 运行代码
 首先将你的所有图片放在一个名为images文件夹下
 进入到项目文件目录，运行
+
 ```bash
-python demo_without_mask.py --data_path /PATH_TO_YOUR/images --ckpt_path /PATH_TO_YOUR/model.pt
+python demo_skymask.py --data_path /PATH_TO_YOUR/images --ckpt_path /PATH_TO_YOUR/model.pt
 ```
+
+如果你不想用天空掩膜，可以加入参数 "--disable_sky_mask"
+
+```bash
+python demo_skymask.py --data_path /PATH_TO_YOUR/images --ckpt_path /PATH_TO_YOUR/model.pt --disable_sky_mask
+```
+
+如果你想让点云有更多的点，可以调整参数 "--max_points"
+
+```bash
+python demo_skymask.py --data_path /PATH_TO_YOUR/images --ckpt_path /PATH_TO_YOUR/model.pt --max_points 1000000
+```
+
+
 上面代码的 PATH_TO_YOUR/model.pt 替换成你保存的权重文件路径. 
 /PATH_TO_YOUR/images 替换成你输入图片的路径
 
